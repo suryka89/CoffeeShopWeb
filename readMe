@@ -6,5 +6,23 @@
     
     Octubre 2020
 
-    Nota: en el caso que muestre producto sin definir 
+    Nota: 
+        
+        * En el caso que muestre producto sin definir es por que en el service el producto fue eliminado, o se creo una orden son productos
+        
+        * Se agrego la validación que al pasar una orden de columna solo la puedo devolver o pasar a la siguiente inmediata, 
+          se dejo comentado en el código en caso de ser requerido la validación para que no se pueda devolver una orden en el proceso
+        
+        * Los estados utilizados son los siguientes, en la columna ENTREGADO al doble click se abre la opción de Pago para sacar la orden del Proceso
+            COLA			pending
+        	PREPARACIÓN		working
+        	FINALIZADO		finished
+        	ENTREGADO		delivered
+        	PAGO			complete
+        
+        * Se definio un método de validación de cambios en caso de que otro cliente ejecute cambios en los status de las ordenes, 
+          aprovechando el atributo la ultimá actualización
+        
+        
+        
 */
