@@ -1,0 +1,124 @@
+
+/*
+Login
+*/
+
+/*
+Control de Ordenes
+*/
+#sortable1, #sortable2, #sortable3, #sortable4 {
+    min-height: 40px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#sortable1 li, #sortable2 li, #sortable3 li, #sortable4 li {
+    margin: 15px 5px 15px 5px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+div#divCS div.col{
+    background-color: #272727;
+    margin: 0px 15px 0px 15px;
+    padding: 10px;
+    border-radius: 15px;
+}
+div.container-fluid > div.row{
+    margin: 5px 5px 5px 0px;
+    padding: 10px;
+}
+p.titleCol{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+body {
+    background-color: black;
+    color: white;
+}
+nav {
+    background-color: #141414;
+}
+nav p{
+    color: #6cc067;
+}
+nav img {
+    margin: 10px;
+}
+div.div-space{
+    height: 20px;
+}
+li.ui-element {
+    background-color: #444444;
+}
+div.row > div.id-orden{
+    font-size: 0.7em;
+    font-weight: bold;
+}
+div.row > div.id-usuario{
+    font-size: 0.6em;
+    text-align: right;
+    color: #d6ba85;
+}
+div.row > div.productos{
+    border-top: 2px solid #5e5e5e;
+    text-align: center;
+    font-size: 0.7em;
+}
+div.productos > span.productos-cantidad{
+    font-weight: bold;
+}
+li.ui-element > div.row{
+    margin: 0px;
+    padding: 0px;
+}
+li.ui-element > div.row div{
+    padding: 5px 20px 5px 20px;
+}
+nav.navbar p svg {
+    margin: 5px 20px 5px 20px;
+}
+
+/*
+Modal
+*/
+div.modal div.modal-content{
+    background-color: black;
+    color: white;
+}
+div.modal div.modal-footer {
+    border-bottom: 7px solid #dee2e6;
+}
+div.modal div.modal-body {
+    border-top: 7px solid #dee2e6;
+    border-bottom: 7px solid #dee2e6;
+}
+div.modal div.modal-header button.close {
+    color: white;
+    border-radius: 90px;
+    border: 2px green solid;
+    background-color: #6cc067;
+    margin: 0px;
+    padding: 1px 8px 5px 8px;
+}
+div.modal div.modal-footer button.btn, nav.navbar button.btn {
+    background-color: #6cc067;
+}
+div.modal div.modal-body img{
+    height: 5em;
+}
+div.modal div.modal-header svg, div.modal div.modal-footer span{
+    color: #d6ba85;
+}
+div.modal div.modal-header span{
+    font-size: 0.7em;
+}
+div.modal div.modal-body span:nth-child(2){
+    font-style: italic;
+    font-size: 0.8em;
+}
+div.modal div.modal-body span:nth-child(3){
+    font-size: 0.8em;
+    color: #d6ba85;
+}

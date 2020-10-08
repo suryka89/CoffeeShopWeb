@@ -1,0 +1,32 @@
+
+body{
+    background-image: url("https://d.newsweek.com/en/full/1588740/coffee-shop-stock-image.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.contenedorPrincipal {
+  height: 700px;
+  /*IMPORTANTE*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedorImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedorLogin {
+  width: 30%;
+}
+
+button#btnRegistro{
+    background-color: #8a7755;
+}
+
+button#btnLogin{
+    background-color: #6cc067;
+}
